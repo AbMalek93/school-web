@@ -1,0 +1,544 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.root {
+    --ff1: 'Oswald', sans-serif;
+    --bdy: #70bbce;
+    --textmn: #f1f1f1;
+    --p: #777777;
+    --btn: #3d6070;
+    --banbtn: #cee1e6;
+}
+
+img {
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul li {
+    list-style: none;
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+/* ------- common css end */
+/* ------- fonts css start */
+.osld-reg {
+    font-family: var(--ff1);
+    font-weight: 400;
+}
+
+.osld-medium {
+    font-family: var(--ff1);
+    font-weight: 500;
+}
+
+.osld-semibld {
+    font-family: var(--ff1);
+    font-weight: 600;
+}
+
+.osld-blod {
+    font-family: var(--ff1);
+    font-weight: 700;
+}
+
+.osld-light {
+    font-family: var(--ff1);
+    font-weight: 300;
+}
+
+.fs-12 {
+    font-size: 12px;
+}
+
+.fs-14 {
+    font-size: 14px;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.fs-24 {
+    font-size: 24px;
+}
+
+.fs-30 {
+    font-size: 30px;
+}
+
+.textmain {
+    color: #fff;
+}
+
+.pt {
+    color: #272727;
+}
+.js{
+    color: #f14916;
+}
+.pragrap {
+    color: #777777;
+}
+
+.fs-body {
+    color: var(--bdy);
+}
+
+.btn {
+    color: var(--btn);
+}
+
+.banbtn {
+    color: var(--banbtn);
+}
+.cap {
+    text-transform: capitalize;
+}
+
+.up {
+    text-transform: uppercase;
+}
+
+/* ------- fonts css end */
+/* ------- header-part css start */
+#header-part {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+}
+
+#header-part .header-main {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#header-part .logo {
+    width: 150px;
+}
+
+#header-part .menu-list {
+    width: 540px;
+}
+
+#header-part .menu-list ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+#header-part .menu-list ul li a {
+    transition: all linear .4s;
+}
+
+#header-part .menu-list ul li a:hover {
+    padding: 10px 15px;
+    background: #3d6070;
+}
+
+#header-part .section {
+    width: 80px;
+}
+
+#header-part .section select {
+    width: 100%;
+    height: 100%;
+}
+
+/* ------- header-part css end */
+/* ------- Banner-part css start */
+#banner-part {
+    height: 400px;
+    background: rgb(112, 187, 206);
+}
+
+#banner-part .banner-main {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+#banner-part .text {
+    width: 550px;
+    height: 400px;
+}
+
+#banner-part .text h3 {
+    padding-top: 160px;
+}
+
+#banner-part .text p {
+    width: 500px;
+    padding: 20px 0;
+}
+
+#banner-part .text h4 {
+    width: 200px;
+    text-align: center;
+    padding: 15px 30px;
+    border: 1px solid transparent;
+    background-color: #c5dce1;
+    transition: all linear .4s;
+}
+
+#banner-part .text h4:hover {
+    background-color: #556160;
+}
+
+#banner-part .img {
+    width: 320px;
+    height: 400px;
+    margin-right: 50px;
+}
+
+#banner-part .img img {
+    padding-top: 160px;
+}
+
+/* ------- banner-part css end */
+/* ------- teacher-part css start */
+#teacher-part {
+    padding: 20px 0;
+    height: 150px;
+    box-shadow: 0px 0px 5px 10px rgba(107, 107, 107, 0.5);
+}
+
+#teacher-part .teacher-main {
+    display: flex;
+    height: 150px;
+    justify-content: space-between;
+}
+
+#teacher-part .item {
+    width: 280px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#teacher-part .item .icon {
+    width: 80px;
+    height: 80px;
+    background: #3d6070;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 80px;
+}
+
+#teacher-part .item .text {
+    width: 180px;
+
+}
+
+#teacher-part .item .text h4 {
+    padding: 5px 0;
+}
+
+/* ------- teacher-part css end */
+/* ------- school-part css start */
+#school-part {
+    padding: 40px 0px;
+}
+
+#school-part .school-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#school-part .our-school {
+    height: 170px;
+    margin-bottom: 40px;
+}
+
+#school-part .our-school h3 {
+    padding: 20px 0;
+}
+
+#school-part .our-school p {
+    padding-bottom: 20px;
+}
+
+#school-part .our-school h4 {
+    width: 250px;
+    border: 1px solid transparent;
+    background: #c5dce1;
+    padding: 10px 18px;
+    text-align: center;
+    transition: all linear .4s;
+}
+
+#school-part .our-school h4:hover {
+    background: #556160;
+}
+
+#school-part .admission {
+    height: 130px;
+}
+
+#school-part .admission p {
+    padding: 20px 0;
+}
+
+#school-part .admission h4 {
+    width: 220px;
+    padding: 12px 15px;
+    box-shadow: 0px 0px 5px 10px rgba(184, 43, 43, 0.5);
+    background: #c5dce1;
+    text-align: center;
+    margin: 0 auto;
+    transition: all linear .4s;
+}
+
+#school-part .admission h4:hover {
+    background: #556160;
+}
+
+/* ------- school-part css end */
+/* ------- java-part css start */
+#java-part{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(../images/school.jpg) no-repeat center / cover;
+}
+#java-part .java-main{
+    padding: 20px;
+    box-shadow: 0px 0px 10px 15px rgba(192, 102, 102, 0.4); 
+}
+textarea{
+    width: 100%;
+    height: 200px;
+    outline: none;
+    resize: none;
+}
+
+p span{
+    font-size: 36px;
+    color: #f14916;
+}
+/* ------- java-part css end */
+/* ------- java-part2 css start */
+#java-part2{
+    height: 100px;
+    background: #a7d3d6c9;
+}
+#java-part2 .option{
+    width: 200px;
+    height: 60px;
+    padding-top: 20px;
+}
+#java-part2 select{
+    width: 200px;
+    height: 60px;
+    box-shadow: 0px 0px 5px 10px rgba(89, 101, 214, 0.5);
+}
+/* ------- java-part2 css end */
+/* ------- footer-part css start */
+#footer-part {
+    height: 350px;
+    background: #777777;
+}
+#footer-part .footer-main{
+    display: flex;
+    justify-content: space-between;
+}
+#footer-part .text{
+    width: 450px;
+    height: 350px;
+}
+#footer-part .text h3{
+    padding: 30px 0px;
+}
+#footer-part .text p{
+    padding: 20px 0px;
+}
+#footer-part .text .icon-m{
+    width: 450px;
+    height: 80Px;
+    display: flex;
+    align-items: center;
+}
+#footer-part .text .icon-m .icon{
+    width: 50px;
+    height: 50px;
+    background: #e100ff;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px 10px #10490a;
+    margin-right: 20px;
+    line-height: 60px;
+    text-align: center;
+    transition: all linear .4s;
+}
+#footer-part .text .icon-m .icon:hover{
+    background: #0eaf8c;
+}
+#footer-part .gallery {
+    width: 450px;
+    height: 350px;
+    background: #cb70ce;
+    display: flex;
+    flex-direction: column;
+}
+#footer-part .gallery .gallery-item{
+    width: 450px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+#footer-part .gallery .gallery-item .item{
+    width: 100px;
+    height: 150px;
+}
+#footer-part .gallery .gallery-item .item img{
+    width: 100%;
+    height: 100%;
+}
+#footer-part .gallery .progres-map{
+    width: 350px;
+    height: 170px;
+    padding-top: 30px;
+}
+#footer-part .gallery .progres-map ul li{
+    width: 60px;
+    height: 170px;
+    border: 1px solid transparent;
+    position: relative;
+    float: left;
+    margin-right: 20px;
+}
+#footer-part .gallery .progres-map ul li:first-child{
+    border-color: tomato;
+}
+#footer-part .gallery .progres-map ul li:first-child h3{
+    text-align: center;
+    margin-top: 20px;
+}
+#footer-part .gallery .progres-map ul li:first-child::after{
+    content: '';
+    width: 100%;
+    height: 80%;
+    background: red;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    animation: run 4s forwards linear;
+}
+@keyframes run{
+    0%{
+        height: 0%;
+    }
+    100%{
+        height: 80%;
+    }
+}
+#footer-part .gallery.progres-map ul li:nth-child(2){
+    border-color: tomato;
+}
+#footer-part .gallery .progres-map ul li:nth-child(2).ps1 h3{
+    text-align: center;
+    margin-top: 50px;
+}
+#footer-part .gallery .progres-map ul li:nth-child(2)::after{
+    content: '';
+    width: 100%;
+    height: 70%;
+    background: rgb(255, 153, 0);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    animation: run1 4s forwards linear;
+    animation-delay: 4s;
+}
+@keyframes run1{
+    0%{
+        height: 0%;
+    }
+    100%{
+        height: 70%;
+    }
+}
+#footer-part .gallery .progres-map ul li:nth-child(3){
+    border-color: tomato;
+}
+#footer-part .gallery .progres-map ul li:nth-child(3).ps2 h3{
+    text-align: center;
+    margin-top: 110px;
+}
+#footer-part .gallery .progres-map ul li:nth-child(3)::after{
+    content: '';
+    width: 100%;
+    height: 50%;
+    background: rgb(74, 208, 241);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    animation: run2 4s forwards linear;
+    animation-delay: 6s;
+}
+@keyframes run2{
+    0%{
+        height: 0%;
+    }
+    100%{
+        height: 50%;
+    }
+}
+#footer-part .gallery .progres-map ul li:nth-child(4){
+    border-color: rgb(105, 71, 255);
+}
+#footer-part .gallery .progres-map ul li:nth-child(4) h3{
+    text-align: center;
+    margin-top: 110px;
+}
+#footer-part .gallery .progres-map ul li:nth-child(4)::after{
+    content: '';
+    width: 100%;
+    height: 30%;
+    background: rgb(38, 0, 255);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    animation: run2 4s forwards linear;
+    animation-delay: 6s;
+}
+@keyframes run2{
+    0%{
+        height: 0%;
+    }
+    100%{
+        height: 30%;
+    }
+}
+/* ------- footer-part css end */
+/* ------- copyright-part css start */
+#copyright-part {
+    height: 100px;
+    background: #3d6070;
+    box-shadow: 0px 0px 10px 10px rgba(226, 66, 218, 0.5);
+}
+
+#copyright-part .copy-main {
+    text-align: center;
+    line-height: 100px;
+}
+
+#copyright-part .copy-main span {
+    color: #e643a7;
+}
+
+/* ------- copyright-part css end */
